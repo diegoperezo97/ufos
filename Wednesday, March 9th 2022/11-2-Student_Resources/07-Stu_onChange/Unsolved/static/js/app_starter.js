@@ -1,5 +1,6 @@
 // grab references to the input element and the output div
-// @TODO: YOUR CODE HERE
+let text = d3.select("#text")
+let output = d3.select(".output")
 
 // Function to reverse a string
 function reverseString(str) {
@@ -9,17 +10,17 @@ function reverseString(str) {
 // Function to handle input change
 function handleChange(event) {
   // grab the value of the input field
-  // @TODO: YOUR CODE HERE
+  let inputText = d3.event.target.value;
 
   // clear the existing output
-  // @TODO: YOUR CODE HERE
+  output.html("");
 
   // reverse the input string
-  // @TODO: YOUR CODE HERE
+  let reversedInput = reverseString(inputText)
 
   // Set the output text to the reversed input string
-  // @TODO: YOUR CODE HERE
+  output.text(reversedInput)
 }
 
 // Attach an event to detect changes to the input field.
-// @TODO: YOUR CODE HERE
+text.on("change", handleChange);

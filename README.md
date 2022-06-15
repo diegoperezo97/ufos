@@ -1,5 +1,19 @@
 # MODULE 11: UFO Sightings with JavaScript
 
+We'll discuss web scraping and the many technologies required to gather data from live websites in this module. To successfully identify the HTML components associated with the desired data, we'll use Chrome Developer Tools. In order to automate a web browser and capture the data I've discovered, I'll also need to use Beautiful Soup and Splinter. I'll store the data in a Mongo, or NoSQL, database. I'll then use Flask to build a web application to show it. 
+
+Instead of visiting every page and manually collecting the data, web scraping is a simple way to get data from several sources. Using a computer script, the web scraping procedure is automated. The findings may be customized for that particular organization, which is an added benefit for many businesses that web scrape. For instance, a business can track the reputation of its brand or a rival's by scraping several news sources.
+
+Scraping data from the internet involves many steps. Understanding how a website is constructed is the first step. A mix of HTML, CSS, and other libraries are used to construct each webpage. I'll limit my attention to HTML and CSS, though.
+
+The following stage is to create a Python script using Beautiful Soup and Splinter after you are more familiar with the structure of a webpage. A web browser may be automated using Splinter. Watching my computer browse and explore various websites on its own is very entertaining. Data needed for analysis will be extracted using Beautiful Soup. Consider the scenario of extracting weather information from a website that is included in a table. I instruct BeautifulSoup to take some components from the HTML table but to leave the rest in our script.
+
+I then use MongoDB to store the data after collecting it in this manner. A NoSQL database is Mongo. This implies that it can manage less organized data. messy data, data that doesn't actually relate to other data. The data is instead stored in JSON data structures since Mongo employs a document approach. Compared to conventional SQL systems, it is quicker, more effective, and more suited for the task I will be working on in this subject.
+
+Finally, I'll utilize Flask to create a web application since I want to showcase my metrics. The button in our web application will run the scraping code and refresh the pages to show the most recent information.
+
+This is a significant undertaking that will be worth showcasing in the future. I can showcase my abilities by creating and maintaining a functional portfolio. I'll utilize the helpful and simple HTML and CSS framework Bootstrap to create my portfolio. It's similar to using pre-built components rather than starting from scratch to create a beautiful and useful website. I'll be able to update this portfolio with information about current and upcoming projects, and I can link to it from my Linkedin page.
+
 ## Overview of the Analysis
 
 Dana is a data journalist who has reached the point in her career where she can write about whatever she wants. She takes advantage of the opportunity to write about her hometown of McMinnville, Oregon, for several reasons. For starters, it's a chance to reminisce about old times and people. The topic of UFOs, on the other hand, is the second and most enjoyable part. McMinnville is well-known for its UFO sightings, with an annual gathering of enthusiasts. Dana has been interested in this topic since she was a child in Innville, Oregon. When she first learned of farmer Trent's sighting in 1950, she was ecstatic.
